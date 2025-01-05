@@ -7,7 +7,7 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import os
 
-# Generate a new ECDH key pair for the server
+# Generate a new ECDH key pair for the server 
 private_key = ec.generate_private_key(ec.SECP256R1())
 public_key = private_key.public_key()
 

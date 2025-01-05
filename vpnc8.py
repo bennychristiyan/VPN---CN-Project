@@ -11,7 +11,7 @@ from tkinter import simpledialog
 import time
 import sys
 
-# Generate a new ECDH key pair for the client
+# Generate a new ECDH key pair for the client 
 private_key = ec.generate_private_key(ec.SECP256R1())
 public_key = private_key.public_key()
 
